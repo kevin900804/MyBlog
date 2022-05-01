@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.all{
+    background: rgb(14, 105, 141);
+}
+.white{
+    width: 1200px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.border{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: rgb(14, 105, 141);
+    border-radius: 30px;
+    padding: 15px;
+}
+.me img{
+    width: 150px;
+    padding: 5px;
+    border: solid 1px white;
+    border-radius: 75px;
+}
+.me img:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    margin-right: 300px;
+    font-size: 20px;
+}
+.name p{
+    color: white;
+}
+.click{
+    display: flex;
+    margin-right: 0px;
+}
+.click a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    padding: 8px;
+}
+.click a:hover{
+    background-color: white;
+    color: rgb(14, 105, 141);
+}
+.mylist{
+    margin-top: 30px;
+}
+.mylist img{
+    height: 200px;
+    width: 200px;
+}
+span{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.background{
+    padding: 20px;
+    background-color: rgb(14, 105, 141);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.introduce{
+    width: 450px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.introduce h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.photobox{
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.photo img{
+    width: 140px;
+    height: 110px;
+    margin-left: -25px;
+    margin-bottom: 10px;
+    border: white 2px solid;
+}
+.photo{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo img:hover{
+    transition: 2s;
+    transform: scale(3,3);
+}
+.background h4{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.yourname{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.who{
+    margin-left: 5px;
+    background-color: rgb(14, 105, 141);
+    color: white;
+    border: unset;
+    font-size: 20px;
+    width: 100px;
+}
+.talk{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.say{
+    margin-top: 10px;
+    height: 150px;
+    width: 855px;
+    resize: none;
+    font-size: 20px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: white;
+    color: rgb(14, 105, 141);
+}
+.btnbox{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+.comment{
+    margin-top: 15px;
+}
+.comment h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.comment p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.yourname,.talk li{
+    list-style: square;
+}
+.footer{
+    background-color: rgb(14, 105, 141);
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.footer h1{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+    border-bottom: solid 3px white;
+    width: 900px;
+}
+.footer li{
+    list-style: square;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.like{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.like p{
+    margin-left: 15px;
+}
+.like button{
+    color: rgb(14, 105, 141);
+    background-color: white;
+}
